@@ -19,7 +19,10 @@ public class ParametersAndArguments {
 ////        System.out.println("The sum of the two numbers is: " + sum);
 //        return sum;
 //    }
-
+/*
+although used interchangably, parameters are the placeholders while arguments are the actual values used 
+when calling the function.
+    */
     static int sum(int i, int j) {
         int sum = i + j;
         return sum;
